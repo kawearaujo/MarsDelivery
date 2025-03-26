@@ -1,42 +1,17 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+@theme {
+  --color-laranja: #f26419;
+  --color-laranja1: #db5208;
+  --color-azul0: #86bbd8;
+  --color-azul1: #33658a;
+  --color-azul2: #2f4858;
+  --color-creme1: rgb(252, 242, 227);
+  --color-creme: rgb(249, 234, 211);
+
+  --font-Montserrat: "Montserrat", sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.base {
+  @apply p-4  bg-azul2 h-[100vh] sm:px-4 md:px-10 lg:px-20;
 }
