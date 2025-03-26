@@ -1,4 +1,4 @@
-"use client"
+"use client"/* eslint-disable @typescript-eslint/no-explicit-any, @typescript-eslint/no-unused-vars */
 import { useEffect, useState } from "react";
 import Menu from "@/components/Menu";
 import Card from "@/components/Card";

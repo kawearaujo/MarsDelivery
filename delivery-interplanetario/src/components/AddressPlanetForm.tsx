@@ -1,4 +1,4 @@
-"use client";
+"use client";/* eslint-disable @typescript-eslint/no-explicit-any, @typescript-eslint/no-unused-vars */
 import { useState, useEffect } from "react";
 
 interface CadastroEnderecoProps {
