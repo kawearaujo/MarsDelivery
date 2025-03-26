@@ -3,8 +3,6 @@
 import Menu from "@/components/Menu";
 import Mars from "@/components/Mars";
 import Earth from "@/components/Earth";
-import image from "@/terraMarte.png";
-import fundo from "@/fundoo.png";
 import Link from "next/link";
 
 export default function Home() {
